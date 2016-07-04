@@ -24,25 +24,25 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section id="welcome">
 					<h2>Tim Heurich</h2>
 					<h4>Software Developer &dash; Ex-Product Manager</h4>
 					<small>Use the arrow keys to navigate</small>
 				</section>
-				<section>
+				<section id="about_me">
 					<h2>About me</h2>
 					<small>I am a passionate newcomer in software development, looking forward to doing this craftmanship on a fulltime 100% professional base. 
 					At the moment I study Computer Science (B.Sc) in part time at the distance university <i>FernUniversität in Hagen</i>, beside my current job.</small>
 				</section>
-				<section>
+				<section id="overview">
 					<h2>Résumé</h2>
-					<p>Experience</p>
-					<p>Education</p>
-					<p>Projects</p>
-					<p>Skills</p>
+					<p><a href="#/experience">Experience</a></p>
+					<p><a href="#/education">Education</a></p>
+					<p><a href="#/projects">Projects</a></p>
+					<p><a href="#/skills">Skills</a></p>
 				</section>
 				<section>
-					<section>
+					<section id="experience">
 						<h2>Experience</h2>
 					</section>
 					<section data-markdown>
@@ -89,7 +89,7 @@
 						</script>
 					</section>
 				</section>
-				<section> <!--Education -->
+				<section id="education"> <!--Education -->
 					<section>
 						<h2>Education</h2>
 					</section>
@@ -111,7 +111,7 @@
 					</section>
 				</section>
 				<section> <!--Projects -->
-					<section>
+					<section id="projects">
 						<h2>Projects</h2>
 					</section>
 					<section data-markdown>
@@ -148,6 +148,40 @@
 
 							This Java tool was build to enable the users to upload and edit a huge amount of large images, pushed directly to the online shop for corresponding articles and supporting the workflow in the Production department.
 						</script>
+					</section>
+				</section>
+				<section id="skills"> <!-- Skills -->
+					<section>
+						<h2>Skills</h2>
+					</section>
+					<section>
+						<h2>Java</h2>
+						<ul>
+							<li>Java 7 & 8 - Intermediate</li>
+							<li>Spring - Advanced</li>
+							<li>Maven - Advanced</li>
+							<li>Git - Advanced</li>
+							<li>JavaFX - Novice</li>
+							<li>Hibernate - Novice</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Python</h2>
+						<ul>
+							<li>Python 3.4 - Advanced</li>
+							<li>Django - Advanced</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Other</h2>
+						<ul>
+							<li>PostgreSQL - Advanced</li>
+							<li>Ruby - Novice</li>
+							<li>Ruby on Rails- Novice</li>
+							<li>HTML5 - Novice</li>
+							<li>CSS3 - Novice</li>
+							<li>Javascript - Novice</li>
+						</ul>
 					</section>					
 				</section>				
 			</div>
@@ -160,6 +194,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				progress: false,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
